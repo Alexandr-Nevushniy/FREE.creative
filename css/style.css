@@ -1,0 +1,85 @@
+.banner {
+  background-size: cover;
+  height: 100vh;
+  background-image: url("../images/milk.jpg"); }
+  .banner.pic {
+    background-image: url("../images/nice_tone.jpg"); }
+  .banner.pic2 {
+    background-image: url("../images/little_girl.jpg"); }
+  .banner.pic3 {
+    background-image: url("../images/cleaning.jpg"); }
+
+header {
+  z-index: 2; }
+  header .navbar-brand {
+    margin-top: 28px; }
+  header p {
+    font-family: '20 Kopeek';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-top: 28px; }
+  header ul li {
+    margin-top: 22px; }
+    header ul li:first-of-type {
+      font-family: '20 Kopeek';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 140%;
+      color: #FFFFFF;
+      border: 1px solid #FFFFFF;
+      border-radius: 15px;
+      margin-right: 19px;
+      margin-top: 28px;
+      width: 204px;
+      height: 36px;
+      text-align: center; }
+    header ul li:last-of-type {
+      margin-left: 9px; }
+
+.description {
+  width: 100%;
+  position: absolute;
+  height: 100vh;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; }
+  .description h1 {
+    font-family: '20 Kopeek Book';
+    font-size: 55px;
+    line-height: 100%;
+    color: #181818;
+    margin-bottom: 30px; }
+  .description h3 {
+    font-family: '20 Kopeek Book';
+    font-size: 34px;
+    line-height: 110%;
+    color: #181818;
+    margin-bottom: 65px; }
+  .description a:first-of-type {
+    font-family: '20 Kopeek';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #181818;
+    padding: 22px 47px;
+    background: #FFFFFF;
+    border-radius: 40px;
+    margin-right: 20px; }
+  .description a:last-of-type {
+    font-family: '20 Kopeek';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #181818;
+    padding: 22px 47px;
+    background: #FFFFFF;
+    border-radius: 40px; }
+
+/*# sourceMappingURL=style.css.map */

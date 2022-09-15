@@ -1,0 +1,102 @@
+.banner{
+  background-size: cover;
+  height: 100vh;
+  background-image: url("../images/milk.jpg");
+  &.pic{
+    background-image: url("../images/nice_tone.jpg");
+  }
+  &.pic2{
+    background-image: url("../images/little_girl.jpg");
+  }
+  &.pic3{
+    background-image: url("../images/cleaning.jpg");
+  }
+}
+header{
+  z-index: 2;
+  .navbar-brand{
+    margin-top: 28px;
+  }
+  p{
+    font-family: '20 Kopeek';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-top: 28px;
+  }
+  ul{
+    li{
+      margin-top: 22px;
+      &:first-of-type{
+        font-family: '20 Kopeek';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #FFFFFF;
+        border: 1px solid #FFFFFF;
+        border-radius: 15px;
+        margin-right: 19px;
+        margin-top: 28px;
+        width: 204px;
+        height: 36px;
+        text-align: center;
+      }
+      &:last-of-type{
+        margin-left: 9px;
+      }
+    }
+  }
+}
+.description{
+  width: 100%;
+  position: absolute;
+  height: 100vh;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  h1{
+    font-family: '20 Kopeek Book';
+    font-size: 55px;
+    line-height: 100%;
+    color: #181818;
+    margin-bottom: 30px;
+  }
+  h3{
+    font-family: '20 Kopeek Book';
+    font-size: 34px;
+    line-height: 110%;
+    color: #181818;
+    margin-bottom: 65px;
+  }
+  a{
+    &:first-of-type{
+      font-family: '20 Kopeek';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 140%;
+      color: #181818;
+      padding: 22px 47px;
+      background: #FFFFFF;
+      border-radius: 40px;
+      margin-right: 20px;
+    }
+    &:last-of-type{
+      font-family: '20 Kopeek';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 140%;
+      color: #181818;
+      padding: 22px 47px;
+      background: #FFFFFF;
+      border-radius: 40px;
+    }
+  }
+}
+
+
